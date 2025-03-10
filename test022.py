@@ -1,0 +1,5 @@
+objname=str(input('Type your entire name here ')).strip()
+print('Your name has {} letters'.format(len(objname) - objname.count(' ')))
+print(objname.upper())
+print(objname.lower())
+print('Your first name is {} and has {} letters'.format(objname,objname.find(' ')))
