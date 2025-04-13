@@ -1,4 +1,4 @@
-import money
+import money108
 
 number = float(input('Type a value: '))
 print(f'{money.coin(number)} half:R${money.half(number)}')
